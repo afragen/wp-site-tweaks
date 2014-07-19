@@ -1,0 +1,26 @@
+
+/* image drop shadow in post, pressgram and pressgram widget */
+img, img.pressgram-image-file, img.wp-post-image {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  border-radius: 3px;
+  border: 1px solid #a9a9a9;
+  margin: -6px 6px 6px -6px;
+  padding: 4px;
+  margin-right: 1em;
+  -webkit-box-shadow: 3px 3px 3px #666;
+  -moz-box-shadow: 3px 3px 3px #666;
+}
+
+/* remove drop shadow from smiley */
+img.wp-smiley, img.header-image {
+  display: inline;
+  position: inherit;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
