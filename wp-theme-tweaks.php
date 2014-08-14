@@ -7,7 +7,7 @@ Author:            Andy Fragen
 Version:           0.1.0
 Author URI:        http://thefragens.com
 GitHub Plugin URI: https://github.com/afragen/wp-theme-tweaks
-GitHub Branch:     master
+GitHub Branch:     urbanrehabber
 */
 
 //add extra css without needing to create child theme
