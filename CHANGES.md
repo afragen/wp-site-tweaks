@@ -1,3 +1,6 @@
+#### 0.4.0
+* center Jetpack gallery widget
+
 #### 0.3.0
 * remove image drop shadow on main page
 
