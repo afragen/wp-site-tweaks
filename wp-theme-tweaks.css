@@ -1,6 +1,6 @@
 
 /* image drop shadow in post, pressgram and pressgram widget */
-img, img.pressgram-image-file, img.wp-post-image {
+.entry-content img, img.pressgram-image-file, img.wp-post-image {
   display: block;
   position: relative;
   background-color: #fff;

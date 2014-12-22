@@ -1,3 +1,6 @@
+#### 0.3.0
+* remove image drop shadow on main page
+
 #### 0.2.0
 * add code to display featured image in post for Genesis framework
 
