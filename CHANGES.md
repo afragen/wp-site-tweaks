@@ -1,3 +1,6 @@
+#### 0.4.1
+* fix CSS comment :P
+
 #### 0.4.0
 * center Jetpack gallery widget
 

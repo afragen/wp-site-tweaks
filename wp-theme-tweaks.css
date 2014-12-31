@@ -25,8 +25,5 @@ img.wp-smiley, img.header-image {
   -moz-box-shadow: none;
 }
 
-//Jetpack gallery widget module
-.widget-wrap .widget-gallery-rectangular.no-carousel {
-	width: 50%;
-    margin: 0 auto;
-}
+/* Jetpack gallery widget module */
+.widget-wrap .widget-gallery-rectangular.no-carousel { width: 50%;  margin: 0 auto; }
