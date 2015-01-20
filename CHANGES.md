@@ -1,3 +1,6 @@
+#### 0.5.0
+* remove query strings from static resources so they can be cached.
+
 #### 0.4.1
 * fix CSS comment :P
 

@@ -4,7 +4,7 @@ Plugin Name:       WP Theme Tweaks
 Plugin URI:        https://github.com/afragen/wp-theme-tweaks
 Description:       Theme tweaks for your WP site that are not included in your theme.
 Author:            Andy Fragen
-Version:           0.4.1
+Version:           0.5.0
 Author URI:        http://thefragens.com
 GitHub Plugin URI: https://github.com/afragen/wp-theme-tweaks
 GitHub Branch:     thefragens
@@ -48,4 +48,11 @@ function sk_show_featured_image_single_posts() {
 	);
 
 	genesis_image( $image_args );
+}
+
+//remove query strings from static resources. This ensures that they are cached like other elements.
+add_filter( 'script_loader_src', 'ewp_remove_script_version', 15, 1 );
+add_filter( 'style_loader_src', 'ewp_remove_script_version', 15, 1 );
+function ewp_remove_script_version( $src ){
+	return remove_query_arg( 'ver', $src );
 }
