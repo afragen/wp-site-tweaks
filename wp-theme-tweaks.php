@@ -7,7 +7,7 @@ Author:            Andy Fragen
 Version:           0.6.0
 Author URI:        http://thefragens.com
 GitHub Plugin URI: https://github.com/afragen/wp-theme-tweaks
-GitHub Branch:     thefragens
+GitHub Branch:     losrobleshoa
 */
 
 //add extra css without needing to create child theme
