@@ -1,3 +1,7 @@
+#### 0.6.0
+* add `htaccess.conf` containing additional commands
+* add `.gitignore`
+
 #### 0.5.0
 * remove query strings from static resources so they can be cached.
 

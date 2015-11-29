@@ -4,7 +4,7 @@ Plugin Name:       WP Theme Tweaks
 Plugin URI:        https://github.com/afragen/wp-theme-tweaks
 Description:       Theme tweaks for your WP site that are not included in your theme.
 Author:            Andy Fragen
-Version:           0.5.1
+Version:           0.6.0
 Author URI:        http://thefragens.com
 GitHub Plugin URI: https://github.com/afragen/wp-theme-tweaks
 GitHub Branch:     thefragens
@@ -22,7 +22,7 @@ function ajf_remove_menu_pages() {
 }
 
 //http://www.paulund.co.uk/automatically-link-twitter
-add_filter( 'the_content', 'paulund_content_twitter_mention' );   
+add_filter( 'the_content', 'paulund_content_twitter_mention' );
 add_filter( 'comment_text', 'paulund_content_twitter_mention' );
 function paulund_content_twitter_mention( $content ) {
 	return preg_replace( '/([^a-zA-Z0-9-_&])@([0-9a-zA-Z_]+)/', "$1<a href=\"http://twitter.com/$2\" target=\"_blank\" rel=\"nofollow\">@$2</a>", $content );
