@@ -1,3 +1,6 @@
+#### 0.7.0
+* added readme(s)
+
 #### 0.6.0
 * add `htaccess.conf` containing additional commands
 * add `.gitignore`
