@@ -1,10 +1,10 @@
 # WP Theme Tweaks
 
-Contributors: [Andy Fragen](https://github.com/afragen)
+Contributors: afragen
 Tags: theme
 Requires at least: 4.6
 Requires PHP: 5.3
-Tested up to: 5.0
+Tested up to: 4.9
 Stable tag: master
 Donate link: <http://thefragens.com/github-updater-donate>
 License: MIT
