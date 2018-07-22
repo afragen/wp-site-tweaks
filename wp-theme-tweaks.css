@@ -1,4 +1,3 @@
-
 /* image drop shadow in post, pressgram and pressgram widget */
 .entry-content img, img.pressgram-image-file, img.wp-post-image {
   display: block;
@@ -11,6 +10,7 @@
   margin: 0.5em;
   -webkit-box-shadow: 3px 3px 3px #666;
   -moz-box-shadow: 3px 3px 3px #666;
+  box-shadow: 3px 3px 3px #666;
 }
 
 /* remove drop shadow from smiley */
@@ -23,6 +23,7 @@ img.wp-smiley, img.header-image {
   padding: 0;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
+  box-shadow: none;
 }
 
 /* Jetpack gallery widget module */
