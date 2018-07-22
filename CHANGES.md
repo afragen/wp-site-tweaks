@@ -1,3 +1,7 @@
+#### 0.7.0
+* updated for Beans framework
+* automatic creation of Twitter links interferes with Gutenburg
+
 #### 0.6.0
 * add `htaccess.conf` containing additional commands
 * add `.gitignore`
