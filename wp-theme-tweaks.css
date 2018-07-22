@@ -44,8 +44,7 @@ article.uk-article header {
   transform: scaleY(-1);
 }
 /* Flip upside down individual header elements right side up */
-header .tm-article-image, header h1, header h2,
-header .uk-comment-avatar, header .uk-comment-meta, header .uk-comment-title {
+header .tm-article-image, header h1, header h2 {
   -webkit-transform: scaleY(-1);
   transform: scaleY(-1);
 }
