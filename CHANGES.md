@@ -1,3 +1,6 @@
+#### 0.8.0
+* use flex box to re-order article header in Beans
+
 #### 0.7.0
 * updated for Beans framework
 * automatic creation of Twitter links interferes with Gutenburg
