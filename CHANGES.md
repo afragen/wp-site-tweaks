@@ -1,4 +1,7 @@
 #### 0.8.0
+* add filter fixing double `&&` in syntaxhighlighter code block
+
+#### 0.8.0
 * use flex box to re-order article header in Beans
 
 #### 0.7.0

@@ -4,7 +4,7 @@ Plugin Name:       WP Theme Tweaks
 Plugin URI:        https://github.com/afragen/wp-theme-tweaks
 Description:       Theme tweaks for your WP site that are not included in your theme.
 Author:            Andy Fragen
-Version:           0.8.0
+Version:           0.9.0
 Author URI:        http://thefragens.com
 GitHub Plugin URI: https://github.com/afragen/wp-theme-tweaks
 */
@@ -59,7 +59,8 @@ function ewp_remove_script_version( $src ) {
 
 // Resize post featured image in Beans.
 add_filter(
-	'beans_edit_post_image_args', function() {
+	'beans_edit_post_image_args',
+	function() {
 		return array(
 			'resize' => array( 300, false ),
 		);
@@ -68,7 +69,8 @@ add_filter(
 
 // Add post meta item in Beans.
 add_filter(
-	'beans_post_meta_items', function () {
+	'beans_post_meta_items',
+	function () {
 		return array(
 			'date'     => 10,
 			'author'   => 20,
@@ -76,5 +78,15 @@ add_filter(
 			// 'categories' => 40,
 			// 'tags'       => 50,
 		);
-	}, 15
+	},
+	15
+);
+
+add_filter(
+	'syntaxhighlighter_htmlresult',
+	function( $content ) {
+		return str_replace( [ '&amp;gt;', '&amp;amp;' ], [ '&gt;', '&amp;' ], $content );
+	},
+	20,
+	1
 );
