@@ -4,7 +4,7 @@ Plugin Name:       WP Theme Tweaks
 Plugin URI:        https://github.com/afragen/wp-theme-tweaks
 Description:       Theme tweaks for your WP site that are not included in your theme.
 Author:            Andy Fragen
-Version:           0.9.0
+Version:           0.9.1
 Author URI:        http://thefragens.com
 GitHub Plugin URI: https://github.com/afragen/wp-theme-tweaks
 */
@@ -94,4 +94,18 @@ add_filter(
 	},
 	20,
 	1
+);
+
+// Disable update emails
+// add_filter( 'auto_core_update_send_email', '__return_false' );
+add_filter(
+	'auto_core_update_send_email',
+	function( $true, $type ) {
+		if ( 'success' === $type ) {
+			$true = false;
+		}
+		return $true;
+	},
+	10,
+	2
 );

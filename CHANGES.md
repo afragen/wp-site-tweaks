@@ -1,7 +1,8 @@
-#### 0.8.0
-* add filter fixing double `&&` in syntaxhighlighter code block
+#### 0.9.1
+* add filter to disable `auto_core_update_send_email` on `success`
 
 #### 0.8.0
+* add filter fixing double `&&` in syntaxhighlighter code block
 * use flex box to re-order article header in Beans
 
 #### 0.7.0
