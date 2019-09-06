@@ -10,15 +10,20 @@ GitHub Plugin URI: https://github.com/afragen/wp-theme-tweaks
 */
 
 // Add extra CSS without needing to create child theme.
-add_action( 'wp_enqueue_scripts', 'wptt_add_xtras_css', 99 );
-function wptt_add_xtras_css() {
-	wp_enqueue_style( 'wp-theme-tweaks', plugins_url( 'wp-theme-tweaks.css', __FILE__ ) );
-}
+add_action(
+	'wp_enqueue_scripts',
+	function() {
+		wp_enqueue_style( 'wp-theme-tweaks', plugins_url( 'wp-theme-tweaks.css', __FILE__ ) );
+	},
+	99
+);
 
-add_action( 'admin_menu', 'ajf_remove_menu_pages' );
-function ajf_remove_menu_pages() {
-	remove_menu_page( 'link-manager.php' );
-}
+add_action(
+	'admin_menu',
+	function() {
+		remove_menu_page( 'link-manager.php' );
+	}
+);
 
 // Seems to conflict with Gutenberg.
 // http://www.paulund.co.uk/automatically-link-twitter
