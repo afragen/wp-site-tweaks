@@ -1,25 +1,30 @@
 <?php
 /**
- * Plugin Name:       WP Theme Tweaks
- * Plugin URI:        https://github.com/afragen/wp-theme-tweaks
- * Description:       Theme tweaks for your WP site that are not included in your  * theme.
+ * Plugin Name:       WP Site Tweaks
+ * Plugin URI:        https://github.com/afragen/wp-site-tweaks
+ * Description:       Theme tweaks for your WP site that are not included in your theme.
  * Author:            Andy Fragen
- * Version:           0.7.0
+ * Version:           0.8.0
  * Author URI:        http://thefragens.com
- * GitHub Plugin URI: https://github.com/afragen/wp-theme-tweaks
+ * GitHub Plugin URI: https://github.com/afragen/wp-site-tweaks
  * License:           MIT
  */
 
 // add extra css without needing to create child theme
-add_action( 'wp_enqueue_scripts', 'wptt_add_xtras_css', 99 );
-function wptt_add_xtras_css() {
-	wp_enqueue_style( 'wp-theme-tweaks', plugins_url( 'wp-theme-tweaks.css', __FILE__ ) );
-}
+add_action(
+	'wp_enqueue_scripts',
+	function() {
+		wp_enqueue_style( 'wp-site-tweaks', plugins_url( 'wp-site-tweaks.css', __FILE__ ) );
+	},
+	99
+);
 
-add_action( 'admin_menu', 'ajf_remove_menu_pages' );
-function ajf_remove_menu_pages() {
-	remove_menu_page( 'link-manager.php' );
-}
+add_action(
+	'admin_menu',
+	function() {
+		remove_menu_page( 'link-manager.php' );
+	}
+);
 
 // Doesn't seem to work with Gutenberg.
 // http://www.paulund.co.uk/automatically-link-twitter

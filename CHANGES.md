@@ -1,3 +1,6 @@
+#### 0.8.0
+* rebrand to `wp-site-tweaks`
+
 #### 0.7.0
 * added readme(s)
 
