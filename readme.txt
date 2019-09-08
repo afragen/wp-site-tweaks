@@ -1,7 +1,6 @@
-# WP Theme Tweaks
+# WP Site Tweaks
 
 Contributors: afragen
-Tags: theme
 Requires at least: 4.6
 Requires PHP: 5.3
 Tested up to: 5.3
@@ -11,4 +10,4 @@ License: MIT
 
 ## Description
 
-Base plugin to add tweaks to help style your WP theme. Sometimes it's easier not to add stuff to a child theme.
+Base plugin to add tweaks to help style your WP site. Sometimes it's easier not to add stuff to a child theme.

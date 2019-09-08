@@ -1,19 +1,19 @@
 <?php
 /*
-Plugin Name:       WP Theme Tweaks
-Plugin URI:        https://github.com/afragen/wp-theme-tweaks
+Plugin Name:       WP Site Tweaks
+Plugin URI:        https://github.com/afragen/wp-site-tweaks
 Description:       Theme tweaks for your WP site that are not included in your theme.
 Author:            Andy Fragen
-Version:           0.9.1
+Version:           1.0.0
 Author URI:        http://thefragens.com
-GitHub Plugin URI: https://github.com/afragen/wp-theme-tweaks
+GitHub Plugin URI: https://github.com/afragen/wp-site-tweaks
 */
 
 // Add extra CSS without needing to create child theme.
 add_action(
 	'wp_enqueue_scripts',
 	function() {
-		wp_enqueue_style( 'wp-theme-tweaks', plugins_url( 'wp-theme-tweaks.css', __FILE__ ) );
+		wp_enqueue_style( 'wp-site-tweaks', plugins_url( 'wp-site-tweaks.css', __FILE__ ) );
 	},
 	99
 );
@@ -96,8 +96,7 @@ add_filter(
 	1
 );
 
-// Disable update emails.
-// add_filter( 'auto_core_update_send_email', '__return_false' );
+// Disable update emails on success.
 add_filter(
 	'auto_core_update_send_email',
 	function( $true, $type ) {

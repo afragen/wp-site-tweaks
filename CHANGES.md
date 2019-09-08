@@ -1,4 +1,6 @@
-#### 0.9.1
+#### 1.0.0
+* rename to `wp-site-tweaks`
+* add filters to disable update and debug email on successful updates
 * add filter to disable `auto_core_update_send_email` on `success`
 
 #### 0.8.0
