@@ -96,15 +96,24 @@ add_filter(
 	1
 );
 
-// Disable update emails
+// Disable update emails.
 // add_filter( 'auto_core_update_send_email', '__return_false' );
 add_filter(
 	'auto_core_update_send_email',
 	function( $true, $type ) {
-		if ( 'success' === $type ) {
-			$true = false;
-		}
+		$true = 'success' === $type ? false : $true;
 		return $true;
+	},
+	10,
+	2
+);
+
+// Skip sending debug email if no failures.
+add_filter(
+	'automatic_updates_debug_email',
+	function( $email, $failures ) {
+		$email = 0 === $failures ? [] : $email;
+		return $email;
 	},
 	10,
 	2
