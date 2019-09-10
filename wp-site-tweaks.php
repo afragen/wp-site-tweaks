@@ -4,7 +4,7 @@ Plugin Name:       WP Site Tweaks
 Plugin URI:        https://github.com/afragen/wp-site-tweaks
 Description:       Theme tweaks for your WP site that are not included in your theme.
 Author:            Andy Fragen
-Version:           1.0.0
+Version:           1.0.1
 Author URI:        http://thefragens.com
 GitHub Plugin URI: https://github.com/afragen/wp-site-tweaks
 */
@@ -94,26 +94,4 @@ add_filter(
 	},
 	20,
 	1
-);
-
-// Disable update emails on success.
-add_filter(
-	'auto_core_update_send_email',
-	function( $true, $type ) {
-		$true = 'success' === $type ? false : $true;
-		return $true;
-	},
-	10,
-	2
-);
-
-// Skip sending debug email if no failures.
-add_filter(
-	'automatic_updates_debug_email',
-	function( $email, $failures ) {
-		$email = 0 === $failures ? [] : $email;
-		return $email;
-	},
-	10,
-	2
 );
