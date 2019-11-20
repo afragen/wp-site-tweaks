@@ -1,5 +1,6 @@
 #### 0.9.0
 * added filter for Git Remote Updater
+* remove deprecated filter from BackupBuddy
 
 #### 0.8.0
 * rebrand to `wp-site-tweaks`

@@ -69,3 +69,5 @@ add_filter(
 		return [ 'caldera-forms' ];
 	}
 );
+
+remove_filter( 'contextual_help','pb_backupbuddy_contextual_help', 10 );
