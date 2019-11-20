@@ -4,7 +4,7 @@ Plugin Name:       WP Site Tweaks
 Plugin URI:        https://github.com/afragen/wp-site-tweaks
 Description:       Theme tweaks for your WP site that are not included in your theme.
 Author:            Andy Fragen
-Version:           1.0.1
+Version:           1.0.2
 Author URI:        http://thefragens.com
 GitHub Plugin URI: https://github.com/afragen/wp-site-tweaks
 */
@@ -94,4 +94,11 @@ add_filter(
 	},
 	20,
 	1
+);
+
+add_filter(
+	'git_remote_updater_remove_site_data',
+	function() {
+		return [ 'caldera-forms' ];
+	}
 );

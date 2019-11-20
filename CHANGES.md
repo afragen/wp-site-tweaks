@@ -1,3 +1,6 @@
+#### 1.0.2
+* add filter for Git Remote Updater
+
 #### 1.0.1
 * move filters from v1.0.0 to new plugin
 
