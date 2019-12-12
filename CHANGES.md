@@ -1,3 +1,6 @@
+#### 1.0.3
+* add filter to disable xmlrpc
+
 #### 1.0.2
 * add filter for Git Remote Updater
 * remove deprecated filter from BackupBuddy
