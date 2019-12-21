@@ -1,3 +1,6 @@
+#### 0.4.0
+* disable xmlrpc as default
+
 #### 0.3.0
 * rebrand to `wp-site-tweaks`
 
