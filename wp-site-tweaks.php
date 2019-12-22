@@ -19,4 +19,5 @@ add_action(
 	99
 );
 
+// Disables mobile WordPress app too.
 add_filter( 'xmlrpc_enabled', '__return_false' );
