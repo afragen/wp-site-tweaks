@@ -45,12 +45,12 @@ function sk_show_featured_image_single_posts() {
 		return;
 	}
 
-	$image_args = array(
+	$image_args = [
 		'size' => 'medium',
-		'attr' => array(
+		'attr' => [
 			'class' => 'alignleft',
-		),
-	);
+		],
+	];
 
 	genesis_image( $image_args );
 }
@@ -66,9 +66,9 @@ function ewp_remove_script_version( $src ) {
 add_filter(
 	'beans_edit_post_image_args',
 	function() {
-		return array(
-			'resize' => array( 300, false ),
-		);
+		return [
+			'resize' => [ 300, false ],
+		];
 	}
 );
 
@@ -76,13 +76,13 @@ add_filter(
 add_filter(
 	'beans_post_meta_items',
 	function () {
-		return array(
+		return [
 			'date'     => 10,
 			'author'   => 20,
 			'comments' => 30,
 			// 'categories' => 40,
 			// 'tags'       => 50,
-		);
+		];
 	},
 	15
 );
@@ -90,7 +90,7 @@ add_filter(
 add_filter(
 	'syntaxhighlighter_htmlresult',
 	function( $content ) {
-		return str_replace( array( '&amp;gt;', '&amp;amp;' ), array( '&gt;', '&amp;' ), $content );
+		return str_replace( [ '&amp;gt;', '&amp;amp;' ], [ '&gt;', '&amp;' ], $content );
 	},
 	20,
 	1
@@ -99,13 +99,13 @@ add_filter(
 add_filter(
 	'git_remote_updater_remove_site_data',
 	function() {
-		return array( 'caldera-forms' );
+		return [ 'caldera-forms' ];
 	}
 );
 
 remove_filter( 'contextual_help', 'pb_backupbuddy_contextual_help', 10 );
 
-add_filter( 'xmlrpc_enabled', '__return_false' );
+// add_filter( 'xmlrpc_enabled', '__return_false' );
 
 /**
  * Add Github to the list of available social media icons for Go theme.
