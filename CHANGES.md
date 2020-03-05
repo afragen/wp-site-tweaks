@@ -1,3 +1,6 @@
+#### 1.0.4
+* add filter for Go theme to add GitHub social link
+
 #### 1.0.3
 * add filter to disable xmlrpc
 
