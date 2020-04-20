@@ -1,3 +1,6 @@
+#### 1.0.5
+* add GitHub social link to Go theme only if it doesn't exist, it will be added to default soon
+
 #### 1.0.4
 * add filter for Go theme to add GitHub social link
 

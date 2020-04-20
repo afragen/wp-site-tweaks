@@ -4,7 +4,7 @@ Plugin Name:       WP Site Tweaks
 Plugin URI:        https://github.com/afragen/wp-site-tweaks
 Description:       Theme tweaks for your WP site that are not included in your theme.
 Author:            Andy Fragen
-Version:           1.0.4
+Version:           1.0.5
 Author URI:        http://thefragens.com
 GitHub Plugin URI: https://github.com/afragen/wp-site-tweaks
 */
@@ -117,11 +117,13 @@ remove_filter( 'contextual_help', 'pb_backupbuddy_contextual_help', 10 );
 add_filter(
 	'go_avaliable_social_icons',
 	function( $social_networks ) {
-		$social_networks['github'] = [
-			'label'       => 'Github',
-			'icon'        => dirname( __FILE__ ) . '/includes/github.svg',
-			'placeholder' => 'https://github.com/Username',
-		];
+		if ( ! array_key_exists( 'github', $social_networks ) ) {
+			$social_networks['github'] = [
+				'label'       => 'Github',
+				'icon'        => dirname( __FILE__ ) . '/includes/github.svg',
+				'placeholder' => 'https://github.com/Username',
+			];
+		}
 
 		return $social_networks;
 	}
