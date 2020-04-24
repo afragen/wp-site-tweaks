@@ -132,7 +132,7 @@ add_filter(
 add_action(
 	'init',
 	function () {
-		if ( defined( 'WP_CLI' ) && WP_CLI ) {
+		if ( defined( 'WP_CLI' ) && \WP_CLI ) {
 			$_SERVER['SERVER_NAME'] = isset( $_SERVER['SERVER_NAME'] ) ? $_SERVER['SERVER_NAME'] : parse_url( network_home_url(), PHP_URL_HOST );
 		}
 	}
