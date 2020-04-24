@@ -4,7 +4,7 @@ Plugin Name:       WP Site Tweaks
 Plugin URI:        https://github.com/afragen/wp-site-tweaks
 Description:       Theme tweaks for your WP site that are not included in your theme.
 Author:            Andy Fragen
-Version:           1.0.5
+Version:           1.0.6
 Author URI:        http://thefragens.com
 GitHub Plugin URI: https://github.com/afragen/wp-site-tweaks
 */
@@ -126,5 +126,14 @@ add_filter(
 		}
 
 		return $social_networks;
+	}
+);
+
+add_action(
+	'init',
+	function () {
+		if ( defined( 'WP_CLI' ) && WP_CLI ) {
+			$_SERVER['SERVER_NAME'] = isset( $_SERVER['SERVER_NAME'] ) ? $_SERVER['SERVER_NAME'] : parse_url( network_home_url(), PHP_URL_HOST );
+		}
 	}
 );

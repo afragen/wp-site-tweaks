@@ -1,3 +1,6 @@
+#### 1.0.6
+* set $_SERVER['SERVER_NAME'] during wp-cli
+
 #### 1.0.5
 * add GitHub social link to Go theme only if it doesn't exist, it will be added to default soon
 
