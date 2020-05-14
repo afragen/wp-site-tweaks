@@ -46,12 +46,12 @@ function sk_show_featured_image_single_posts() {
 		return;
 	}
 
-	$image_args = array(
+	$image_args = [
 		'size' => 'medium',
-		'attr' => array(
+		'attr' => [
 			'class' => 'alignleft',
-		),
-	);
+		],
+	];
 
 	genesis_image( $image_args );
 }
@@ -60,13 +60,13 @@ function sk_show_featured_image_single_posts() {
 add_filter( 'script_loader_src', 'ewp_remove_script_version', 15, 1 );
 add_filter( 'style_loader_src', 'ewp_remove_script_version', 15, 1 );
 function ewp_remove_script_version( $src ) {
-	return remove_query_arg( 'ver', $src );
+	// return remove_query_arg( 'ver', $src );
 }
 
 add_filter(
 	'git_remote_updater_remove_site_data',
 	function() {
-		return array( 'caldera-forms' );
+		return [ 'caldera-forms' ];
 	}
 );
 

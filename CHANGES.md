@@ -1,3 +1,6 @@
+#### 0.9.2
+* don't remove cache busting query arg
+
 #### 0.9.1
 * add filter to disable xmlrpc
 
