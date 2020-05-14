@@ -1,3 +1,6 @@
+#### 1.0.7
+* don't remove `ver` query arg from static resources, prevents cache busting
+
 #### 1.0.6
 * set $_SERVER['SERVER_NAME'] during wp-cli
 

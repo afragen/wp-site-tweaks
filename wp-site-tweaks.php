@@ -4,7 +4,7 @@ Plugin Name:       WP Site Tweaks
 Plugin URI:        https://github.com/afragen/wp-site-tweaks
 Description:       Theme tweaks for your WP site that are not included in your theme.
 Author:            Andy Fragen
-Version:           1.0.6
+Version:           1.0.7
 Author URI:        http://thefragens.com
 GitHub Plugin URI: https://github.com/afragen/wp-site-tweaks
 */
@@ -59,7 +59,7 @@ function sk_show_featured_image_single_posts() {
 add_filter( 'script_loader_src', 'ewp_remove_script_version', 15, 1 );
 add_filter( 'style_loader_src', 'ewp_remove_script_version', 15, 1 );
 function ewp_remove_script_version( $src ) {
-	return remove_query_arg( 'ver', $src );
+	// return remove_query_arg( 'ver', $src );
 }
 
 // Resize post featured image in Beans.
