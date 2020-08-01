@@ -1,3 +1,6 @@
+#### 1.0.8
+* remove patch fixed in WP 5.5
+
 #### 1.0.7
 * don't remove `ver` query arg from static resources, prevents cache busting
 
