@@ -1,3 +1,6 @@
+#### 0.4.1
+* re-enable xmlrpc via comment as default
+
 #### 0.4.0
 * disable xmlrpc as default
 
