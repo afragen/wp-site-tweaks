@@ -1,3 +1,7 @@
+#### 0.4.2
+* use plugin version as enqueued version
+* remove xmlrpc disabled
+
 #### 0.4.1
 * re-enable xmlrpc via comment as default
 

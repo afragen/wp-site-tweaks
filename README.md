@@ -2,7 +2,7 @@
 
 * Contributors: [Andy Fragen](https://github.com/afragen)
 * Requires at least: 4.6
-* Requires PHP: 5.3
+* Requires PHP: 5.4
 * Stable tag: master
 * Donate link: <http://thefragens.com/github-updater-donate>
 * License: MIT
