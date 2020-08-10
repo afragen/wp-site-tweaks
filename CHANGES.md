@@ -1,3 +1,6 @@
+### 1.0.9
+* underline links on hover
+
 #### 1.0.8
 * remove patch fixed in WP 5.5
 
