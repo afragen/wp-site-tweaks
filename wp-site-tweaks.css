@@ -1,3 +1,8 @@
+/* a11y */
+a:hover:link {
+  text-decoration: underline;
+}
+
 /* image drop shadow in post, pressgram and pressgram widget */
 .entry-content img, img.pressgram-image-file, img.wp-post-image {
   display: block;

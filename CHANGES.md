@@ -1,3 +1,6 @@
+#### 0.9.3
+* underline link on hover
+
 #### 0.9.2
 * don't remove cache busting query arg
 
