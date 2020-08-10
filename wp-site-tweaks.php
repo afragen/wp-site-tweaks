@@ -7,6 +7,7 @@ Author:            Andy Fragen
 Version:           1.0.9
 Author URI:        http://thefragens.com
 GitHub Plugin URI: https://github.com/afragen/wp-site-tweaks
+Requires PHP:      5.4
 */
 
 // Add extra CSS without needing to create child theme.
