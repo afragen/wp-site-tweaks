@@ -1,5 +1,6 @@
 ### 1.0.9
 * underline links on hover
+* add plugin version to enqueue
 
 #### 1.0.8
 * remove patch fixed in WP 5.5
