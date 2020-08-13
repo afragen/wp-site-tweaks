@@ -1,3 +1,6 @@
+#### 0.9.4
+* add action to set `$_SERVER['SERVER_NAME']` if not set
+
 #### 0.9.3
 * underline link on hover
 * use plugin version on enqueue
