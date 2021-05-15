@@ -1,1 +1,12 @@
 
+header > img {
+    width: auto !important;
+}
+
+#eckb-article-content-body p  {
+    margin: 1em;
+}
+
+#eckb-article-content-body h3, #eckb-article-content-body h4 {
+    margin: 0.5em;
+}
