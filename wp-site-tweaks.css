@@ -23,8 +23,23 @@ header > img {
     display: block !important;
 }
 
+/* 4 column pricing table */
 @media screen and (min-width: 600px) and (max-width: 1024px){
     #rpt_pricr.rpt_plans .rpt_price {
         font-size: 50px;
     }
+    #rpt_pricr.rpt_plans .rpt_head .rpt_recurrence {
+        font-size: 10px;
+    }
+    #rpt_pricr.rpt_plans .rpt_head .rpt_price span {
+        font-size: 0.25em !important;
+    }
+}
+
+#rpt_pricr.rpt_plans .rpt_plan {
+    padding: 1px;
+}
+
+.rpt_4_plans .rpt_plan_0 {
+    margin-right: 1px;
 }

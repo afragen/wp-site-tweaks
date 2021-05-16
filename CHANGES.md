@@ -1,7 +1,8 @@
 [unreleased]
 
-#### 0.3.1
+#### 0.4.0
 * update for unordered lists
+* update responsive layout for 4 column pricing table
 
 #### 0.3.0
 * updates for 4 column pricing table
