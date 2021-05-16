@@ -1,4 +1,8 @@
 [unreleased]
+
+#### 0.3.1
+* update for unordered lists
+
 #### 0.3.0
 * updates for 4 column pricing table
 

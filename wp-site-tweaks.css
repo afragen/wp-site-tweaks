@@ -15,8 +15,8 @@ header > img {
     display: inline;
 }
 
-.single-content p {
-    margin: 1em;
+.single-content p, .single-content ul {
+    margin: 1em auto;
 }
 
 .mobile-site-branding .site-title-wrap .site-title.vs-md-false {
