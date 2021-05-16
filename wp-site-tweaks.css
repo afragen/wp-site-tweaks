@@ -22,3 +22,9 @@ header > img {
 .mobile-site-branding .site-title-wrap .site-title.vs-md-false {
     display: block !important;
 }
+
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    #rpt_pricr.rpt_plans .rpt_price {
+        font-size: 50px;
+    }
+}
