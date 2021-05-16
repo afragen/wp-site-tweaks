@@ -18,3 +18,7 @@ header > img {
 .single-content p {
     margin: 1em;
 }
+
+.mobile-site-branding .site-title-wrap .site-title.vs-md-false {
+    display: block !important;
+}
