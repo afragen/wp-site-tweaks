@@ -10,3 +10,11 @@ header > img {
 #eckb-article-content-body h3, #eckb-article-content-body h4 {
     margin: 0.5em;
 }
+
+#eckb-article-content-body p img {
+    display: inline;
+}
+
+.single-content p {
+    margin: 1em;
+}
