@@ -1,4 +1,5 @@
 [unreleased]
+
 #### 0.5.0
 * make logo 100x100px
 * update donate link
