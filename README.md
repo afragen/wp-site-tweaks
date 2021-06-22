@@ -4,7 +4,7 @@
 * Requires at least: 4.6
 * Requires PHP: 5.4
 * Stable tag: master
-* Donate link: <http://thefragens.com/github-updater-donate>
+* Donate link: <http://thefragens.com/git-updater-donate>
 * License: MIT
 
 ## Description

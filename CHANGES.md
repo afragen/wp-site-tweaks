@@ -1,4 +1,5 @@
 [unreleased]
+* update donate link
 
 #### 0.4.0
 * update for unordered lists

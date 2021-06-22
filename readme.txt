@@ -3,9 +3,9 @@
 Contributors: afragen
 Requires at least: 4.6
 Requires PHP: 5.4
-Tested up to: 5.5
+Tested up to: 5.8
 Stable tag: master
-Donate link: <http://thefragens.com/github-updater-donate>
+Donate link: <http://thefragens.com/git-updater-donate>
 License: MIT
 
 ## Description
