@@ -3,6 +3,11 @@ header > img {
     width: auto !important;
 }
 
+.site-branding a.brand img.svg-logo-image {
+    width: 100px;
+    height: 100px;
+}
+
 #eckb-article-content-body p  {
     margin: 1em;
 }
