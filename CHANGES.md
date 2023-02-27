@@ -1,3 +1,6 @@
+#### 1.0.11
+* remove Foodie menu search
+
 #### 1.0.10
 * add action to set `$_SERVER['SERVER_NAME']` if not set
 

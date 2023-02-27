@@ -50,3 +50,6 @@ article.uk-article header h1 { order: 1; }
 article.uk-article header h2 { order: 2; }
 article.uk-article ul.uk-article-meta { order: 3; }
 article.uk-article .tm-article-image { order: 4; }
+
+
+li#foodie-search.foodie-search.menu-item { display:none; }
