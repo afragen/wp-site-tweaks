@@ -1,3 +1,6 @@
+#### 0.9.5
+* add formatting for shc-copyright
+
 #### 0.9.4
 * add action to set `$_SERVER['SERVER_NAME']` if not set
 

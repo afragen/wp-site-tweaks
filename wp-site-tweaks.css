@@ -33,3 +33,5 @@ img.wp-smiley, img.header-image {
 
 /* Jetpack gallery widget module */
 .widget-wrap .widget-gallery-rectangular.no-carousel { width: 50%;  margin: 0 auto; }
+
+div.wp-block-shc-copyright > div { display: inline-block; }
