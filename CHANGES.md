@@ -1,4 +1,6 @@
 [unreleased]
+#### 0.5.1
+* add formatting for shc-copyright
 
 #### 0.5.0
 * make logo 100x100px
