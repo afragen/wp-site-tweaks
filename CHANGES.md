@@ -1,3 +1,6 @@
+#### 1.0.12
+* add formatting for shc-copyright
+
 #### 1.0.11
 * remove Foodie menu search
 
