@@ -1,3 +1,6 @@
+#### 1.0.13
+* remove formatting for shc-copyright, mea culpa
+
 #### 1.0.12
 * add formatting for shc-copyright
 
