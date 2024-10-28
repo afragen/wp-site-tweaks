@@ -1,4 +1,8 @@
 [unreleased]
+
+#### 0.5.2
+* remove formatting for shc-copyright, mea culpa
+
 #### 0.5.1
 * add formatting for shc-copyright
 
